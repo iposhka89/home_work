@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>homeWork1</title>
+ </head>
+ <body>
+   <script type="text/javascript">
+        var value = prompt('Enter your number','введите число'),
+            subValue = prompt('Enter your substraction Value','минус скока?'),
+            addValue = prompt('Enter your addiction value','+ скока?'),
+            mulValue = prompt('Enter your multiplicate value','умножим?'),
+            divValue = prompt('Enter your division value','надо на что-то поделить'),
+            resultString = value,
+            resultValue = parseInt(value,10);
+            
+        resultValue -= parseInt(subValue,10); 
+        resultValue += parseInt(addValue,10); 
+        resultValue *= parseInt(mulValue,10); 
+        resultValue /= parseInt(divValue,10); 
+        alert('['+resultString+'-'+subValue+'+'+addValue+']'
+              +'*'+mulValue+'/'+divValue+'='+resultValue);
+    </script>
+ </body>
+</html>
